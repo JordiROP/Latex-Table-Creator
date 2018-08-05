@@ -12,6 +12,26 @@ The given input:
 ```  
   python latex_table_creator.py --file test_set.csv --format "|cccc|" > out.txt --columns 3,4,5,6
 ```
+test_set.csv:
+```
+3,4,5,6
+11,13,63,14
+14,9,62,19
+8,8,63,9
+7,8,54,20
+7,12,61,15
+12,5,63,10
+13,10,61,14
+5,8,60,17
+5,16,63,14 
+5,7,66,12
+13,11,94,23
+12,10,52,17
+10,12,69,16
+8,11,53,17
+11,10,59,18
+7,8,66,12
+```
 Gives the following output:
 ```
 \begin{table}[POSITION]
