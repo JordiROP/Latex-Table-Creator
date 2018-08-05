@@ -39,7 +39,7 @@ Gives the following output:
 \end{tabular}
 \caption{A CAPTION} \label{tab:A LABEL}
 \end{table}
-
+```
 ## Built With
 [Python](https://www.python.org/) - Primary Language.
 
